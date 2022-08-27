@@ -1,0 +1,159 @@
+.gradient-custom {
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+    }
+    
+    .card-custom {
+    border-bottom-left-radius: 10% 50%;
+    border-top-left-radius: 10% 50%;
+    background-color: #f8f9fa ;
+    }
+    
+    
+    .input-custom {
+    background-color: white ;
+    }
+    
+    .white-text {
+    color: hsl(52, 0%, 98%);
+    font-weight: 100 ;
+    font-size: 14px;
+    }
+    
+    .back-button {
+    background-color: hsl(52, 0%, 98%);
+    font-weight: 700;
+    color: black ;
+    margin-top: 50px ;
+    }
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #6a11cb;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+}
+body {
+    min-height: 100vh;
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+    color: rgba(116, 116, 116, 0.667);
+    background: linear-gradient(140deg, #fff, 50%, #BA68C8)
+    }
+    .container-fluid {
+    margin-top: 200px
+    }
+    p {
+    font-size: 14px;
+    margin-bottom: 7px
+    }
+    .small {
+    letter-spacing: 0.5px !important
+    }
+    .card-1 {
+    box-shadow: 2px 2px 10px 0px rgb(190, 108, 170)
+    }
+    hr {
+    background-color: rgba(248, 248, 248, 0.667)
+    }
+    .bold {
+    font-weight: 500
+    }
+    .change-color {
+    color: #AB47BC !important
+    }
+    .card-2 {
+    box-shadow: 1px 1px 3px 0px rgb(112, 115, 139)
+    }
+    .fa-circle.active {
+    font-size: 8px;
+    color: #AB47BC
+    }
+    .fa-circle {
+    font-size: 8px;
+    color: #aaa
+    }
+    .rounded {
+    border-radius: 2.25rem !important
+    }
+    .progress-bar {
+    background-color: #AB47BC !important
+    }
+    .progress {
+    height: 5px !important;
+    margin-bottom: 0
+    }
+    .invoice {
+    position: relative;
+    top: -70px
+    }
+    .Glasses {
+    position: relative;
+    top: -12px !important
+    }
+    .card-footer {
+    background-color: #AB47BC;
+    color: #fff
+    }
+    h2 {
+    color: rgb(78, 0, 92);
+    letter-spacing: 2px !important
+    }
+    .display-3 {
+    font-weight: 500 !important
+    }
+    @media (max-width: 479px) {
+    .invoice {
+    position: relative;
+    top: 7px
+    }
+    .border-line {
+    border-right: 0px solid rgb(226, 206, 226) !important
+    }
+    }
+    @media (max-width: 700px) {
+    h2 {
+    color: rgb(78, 0, 92);
+    font-size: 17px
+    }
+    .display-3 {
+    font-size: 28px;
+    font-weight: 500 !important
+    }
+    }
+    .card-footer small {
+    letter-spacing: 7px !important;
+    font-size: 12px
+    }
+    .border-line {
+    border-right: 1px solid rgb(226, 206, 226)
+    }
+    .carousel-item {
+        height: 100vh;
+        min-height: 350px;
+        background: no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+      .gradient-custom {
+        /* fallback for old browsers */
+        background: #cd9cf2;
+        
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: -webkit-linear-gradient(to top left, rgba(205, 156, 242, 1), rgba(246, 243, 255, 1));
+        
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: linear-gradient(to top left, rgba(205, 156, 242, 1), rgba(246, 243, 255, 1))
+        }
+        .bg-custom-1 {
+            background-color: #85144b;
+          }
+          
+          .bg-custom-2 {
+          background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+          }
+       

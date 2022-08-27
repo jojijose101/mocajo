@@ -1,0 +1,36 @@
+<section>
+  <div class="container">
+
+
+    <table class="table mt-5 display" id="table_id">
+      <thead>
+        <tr>
+          
+          <th scope="col">Name</th>
+          <th scope="col">Email</th>
+        
+        </tr>
+      </thead>
+
+      <tbody>
+    
+        {{#each users}}
+          <tr>
+         
+            <td>{{this.Name}}</td>
+            <td>{{this.Email}}</td>
+        
+            
+          </tr>
+        {{/each}}
+      </tbody>
+
+    </table>
+  </div>
+</section>
+<script>
+  
+  $(document).ready( function () {
+    $('#table_id').DataTable();
+} );
+</script>

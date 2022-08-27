@@ -1,0 +1,47 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/admin">MJ Admin</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">All Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="admin/all-users">All users</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">All order</a>
+        </li>
+        <li class="nav-item dropdown">
+{{#if adminI}}
+  <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            
+            <img src="https://cdn-icons-png.flaticon.com/512/3135/3135768.png" width="40"
+              height="30" class="rounded-circle">
+          </a>
+{{else}}
+          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Account
+          </a>
+          {{/if}}
+          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+            {{#if adminI}}
+            <li><a class="dropdown-item" href="#">{{adminI.Name}}</a></li>
+            {{/if}}
+            {{#if adminI}}
+            <li><a class="dropdown-item" href="#">Log out</a></li>
+           {{else}}
+            <li><a class="dropdown-item" href="admin/adminlogin">Log in</a></li>
+            {{/if}}
+          </ul>
+        </li>
+        
+      </ul>
+     
+    </div>
+  </div>
+</nav>
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.js"></script>
